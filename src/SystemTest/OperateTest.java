@@ -6,7 +6,6 @@ import java.util.Map;
 import org.junit.Test;
 
 import SystemClass.People;
-import SystemClass.Student;
 import SystemUtil.OperateUtil;
 
 public class OperateTest {

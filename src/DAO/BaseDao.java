@@ -50,11 +50,9 @@ public class BaseDao<T> {
 		Map<String,T> map = new Hashtable<>();
 		Class<?> clz = type.getClass();
 		MakeSqlUtil mkSql = new MakeSqlUtil();
-		System.out.println(clz);
 		String sql = mkSql.createFindSQL(clz);
 		Statement st = conn.createStatement();
 		ResultSet rs = st.executeQuery(sql);
-		System.out.println(sql);
 		OperateUtil.orderName.clear();
 		
 		while(rs.next()) {
@@ -101,11 +99,9 @@ public class BaseDao<T> {
 		Map<String,T> map = new Hashtable<>();
 		Class<?> clz = type.getClass();
 		MakeSqlUtil mkSql = new MakeSqlUtil();
-		System.out.println(clz);
 		String sql = mkSql.createFindAllSQL(clz);
 		Statement st = conn.createStatement();
 		ResultSet rs = st.executeQuery(sql);
-		System.out.println(sql);
 		if(sql.contains("student"))
 			OperateUtil.orderName.clear();
 		while(rs.next()) {

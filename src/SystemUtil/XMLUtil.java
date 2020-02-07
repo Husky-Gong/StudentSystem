@@ -38,7 +38,6 @@ public class XMLUtil {
 	 * Read the document and store information from XML file into a hashmap
 	 */
 	private static void load() {
-		@SuppressWarnings("unchecked")
 		List<Node> list = (List<Node>)document.selectNodes("sqlInfo//info");
 		for(Node info: list) {
 			String key = info.valueOf("@key");
