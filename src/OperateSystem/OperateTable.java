@@ -24,7 +24,7 @@ public class OperateTable {
 			// First initialize the database.
 			opUtil.initialize();
 			
-			System.out.println("\t\t------Welcome to Flower System------\n Please make your choice:"
+			System.out.println("\t\t------Welcome to Student System------\n Please make your choice:"
 					+ "\t\t\t\t1. Regist"
 					+ "\t\t\t\t2. Login"
 					+ "\t\t\t\t3. Exit");
@@ -45,7 +45,7 @@ public class OperateTable {
 			
 			while(OperateUtil.flag) {
 				opUtil.initialize();
-				System.out.println("\t\t------Welcome to Flower System------\n Please make your choice:"
+				System.out.println("\t\t------Welcome to Student System------\n Please make your choice:"
 						+ "\t\t\t1. Get All Student."
 						+ "\t\t\t2. Add New Student Information."
 						+ "\t\t\t3. Search Students with Specific Name."
