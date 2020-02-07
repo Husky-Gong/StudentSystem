@@ -50,6 +50,7 @@ public class OperateTable {
 						+ "\t\t\t2. Add New Student Information."
 						+ "\t\t\t3. Search Students with Specific Name."
 						+ "\t\t\t4. Exit.");
+				//
 				int decide = input.nextInt();
 				
 				switch(decide) {
